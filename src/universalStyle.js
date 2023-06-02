@@ -1,0 +1,103 @@
+import { StyleSheet } from "react-native"
+export default styles=StyleSheet.create({
+    container:{
+        flex:1
+    },
+    introFirst:{
+        flex:1,
+        justifyContent:'center',
+        alignItems:'center',
+    },
+    introFirst2:{
+        flex:1,
+        // justifyContent:'center',
+        alignItems:'center',
+        
+    },
+    introFirst1:{
+        flex:1,
+        justifyContent:'flex-end',
+        alignItems:'center',
+    },
+    introSecond:{
+        flex:1,
+        alignItems:'center',
+        backgroundColor:'#a61133'
+    },
+    IntorButton:{
+        flexDirection:'row' ,
+        backgroundColor:'#343a85',
+        height:60,
+        width:200,
+        justifyContent:'space-between',
+        alignItems:'center',
+       
+     },
+     logo:{
+        color:'white',
+        marginLeft:20,
+        fontWeight:'bold',
+        fontSize:22
+
+     },
+     introText:{
+        color:'white',
+        backgroundColor:'green',
+        height:50,
+        width:'50%',
+        textAlign:'center',
+        marginHorizontal:5,
+        paddingTop:10,
+        fontWeight:'bold',
+        fontSize:22
+     },
+    
+activeIndicater:{
+    flexDirection:"row",
+    marginVertical:20
+},
+active:{
+    backgroundColor:'#a61133',
+    height:10,
+    width:20,
+    borderRadius:10
+},
+notActive:{
+     backgroundColor:'#ebbcc7',
+    height:10,
+    width:10,
+    borderRadius:10
+},
+centerActive:{
+    marginHorizontal:20,
+},
+mainHeading:{
+    width:'80%',
+    marginHorizontal:20
+},
+heading:{
+     fontWeight:'bold',
+     fontSize:40,
+},
+subHeading:{
+     fontSize:22,
+     textAlign:"center",
+},
+subText:{
+    color:'#767c99',
+    textAlign:"center",
+    marginTop:20,
+},
+skipBtn:{
+    flexDirection:"row-reverse",
+    marginLeft:20,
+    marginBottom:10
+},
+skipText:{
+    fontWeight:'bold',
+},
+body:{
+    flex:1,
+}
+})
+
